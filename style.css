@@ -1,0 +1,43 @@
+/* Set body styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style header */
+header {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+header img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Style main content */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+main p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
