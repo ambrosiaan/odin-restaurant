@@ -1,4 +1,4 @@
-export function loadPage() {
+export function loadHomePage() {
   const content = document.querySelector("#content");
   const header = document.createElement("header");
 
