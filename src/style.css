@@ -19,7 +19,6 @@ body {
 
 /* Style header */
 header {
-  /* background-color: var(--color-secondary); */
   display: flex;
   flex-direction: column;
   align-items: center;

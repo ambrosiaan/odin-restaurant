@@ -6,12 +6,10 @@ const content = document.querySelector("#content");
 const list = document.querySelector("#navbar");
 
 function cleanPage() {
-  console.log("cleaning up");
   content.innerHTML = "";
 }
 
 function loadFooter() {
-  // Create footer
   const footer = document.querySelector("#footer");
   const footerText = document.createElement("p");
   footerText.innerHTML =
